@@ -2,3 +2,5 @@ bazel-bin
 bazel-out
 bazel-personal
 bazel-testlogs
+
+build/
