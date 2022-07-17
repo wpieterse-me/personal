@@ -132,7 +132,7 @@ static void SetSDLIcon()
 			rmask, gmask, bmask, amask);
 
 #if SDL_VERSION_ATLEAST(2, 0, 0)
-	SDL_SetWindowIcon(window, icon);
+	// SDL_SetWindowIcon(window, icon);
 #else
 	SDL_WM_SetIcon(icon, NULL);
 #endif
