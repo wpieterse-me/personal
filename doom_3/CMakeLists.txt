@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
 project(dhewm3)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON CACHE INTERNAL "")
+
 # TODO
 
 # osx: place game .dylib's in the bundle (next to the binary)
